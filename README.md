@@ -3,7 +3,7 @@ Custom-Subnet-with-Avalanche-HyperSDK
 
 ## Description
 
-This project uses the HyperSDK to demonstrate full control over the rules and functionality of a custom chain, allowing the creation of a custom blockchain that is tailored to a given startup's specific needs.
+This project uses the HyperSDK to demonstrate full control over the rules and functionality of a custom chain, allowing the creation of a custom blockchain that is tailored to a given startup's specific needs. Using the Metacrafters' `tokenvm` repository as starter project, I am able to demonstrate the creation of my custom subnet on which I created, minted and checked my balance of a custom asset.
 
 ## Getting Started
 
@@ -37,11 +37,16 @@ go mod tidy
 ```
 Run MODE="run-single" ./scripts/run.sh
 Run ./scripts/build.sh
+Consult the repository at https://github.com/Metacrafters/tokenvm (also nested within this folder) to see a more detailed guide
 ```
 
 * Interact with your own HyperChain!
 * Use the demos included in the README file of the 'tokenvm-clone' folder
-* To close your Local Avalanche Network run killall avalanche-network-runner
+* To close your Local Avalanche Network run the following command 
+
+```
+killall avalanche-network-runner
+```
 
 ## Help
 
