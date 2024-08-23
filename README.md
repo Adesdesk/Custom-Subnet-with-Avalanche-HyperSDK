@@ -20,7 +20,7 @@ git clone https://github.com/Adesdesk/Custom-Subnet-with-Avalanche-HyperSDK.git
 * Navigate (cd) into this project folder and then into the starter project folder by running the following command
 
 ```
-cd Custom-Subnet-with-Avalanche-HyperSDK/initial-repository
+cd Custom-Subnet-with-Avalanche-HyperSDK/tokenvm
 ```
 
 * Run the following command to normalize all the dependencies
@@ -40,7 +40,7 @@ Run ./scripts/build.sh
 ```
 
 * Interact with your own HyperChain!
-* Use the demos included in the README file or located at the repo in step 1
+* Use the demos included in the README file of the 'tokenvm' folder
 * To close your Local Avalanche Network run killall avalanche-network-runner
 
 ## Help
@@ -48,7 +48,7 @@ Run ./scripts/build.sh
 Any advise for common problems or issues.
 * Make sure Go is on your path, defined on your terminal, if not you can do so by running export PATH=$PATH:$(go env GOPATH)/bin
 If this path doesn’t work, you can also try export PATH=$PATH:/usr/local/go/bin
-* If you get a permissions denied error, try running these scripts with the bash command (i.e.bash ./scripts/run.sh)
+* If you get a permissions denied error, try running these scripts with the bash command (i.e. bash ./scripts/run.sh)
 Load the demo private key included on the project ./build/token-cli key import demo.pk and ./build/token-cli chain import-anr
 
 ## Authors
