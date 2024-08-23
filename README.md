@@ -20,7 +20,7 @@ git clone https://github.com/Adesdesk/Custom-Subnet-with-Avalanche-HyperSDK.git
 * Navigate (cd) into this project folder and then into the starter project folder by running the following command
 
 ```
-cd Custom-Subnet-with-Avalanche-HyperSDK/tokenvm
+cd Custom-Subnet-with-Avalanche-HyperSDK/tokenvm-clone
 ```
 
 * Run the following command to normalize all the dependencies
@@ -40,7 +40,7 @@ Run ./scripts/build.sh
 ```
 
 * Interact with your own HyperChain!
-* Use the demos included in the README file of the 'tokenvm' folder
+* Use the demos included in the README file of the 'tokenvm-clone' folder
 * To close your Local Avalanche Network run killall avalanche-network-runner
 
 ## Help
