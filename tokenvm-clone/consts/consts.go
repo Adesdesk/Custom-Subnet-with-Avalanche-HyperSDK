@@ -14,8 +14,10 @@ import (
 const (
 	// TODO: choose a human-readable part for your hyperchain
 	HRP = "token"
+
 	// TODO: choose a name for your hyperchain
 	Name = "Adesdeskchain"
+	
 	// TODO: choose a token symbol
 	Symbol = "ADTKN"
 )
